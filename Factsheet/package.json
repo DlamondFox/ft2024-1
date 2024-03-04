@@ -1,0 +1,15 @@
+{
+  "name": "23",
+  "version": "1.0.0",
+  "description": "35",
+  "main": "index.js",
+  "scripts": {
+    "sass-transpile": "sass --no-source-map styles.scss:styles.css",
+    "watch": "sass --no-source-map --watch styles.scss:styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.71.1"
+  }
+}
