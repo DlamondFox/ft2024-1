@@ -2,10 +2,10 @@
   "name": "23",
   "version": "1.0.0",
   "description": "35",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "sass-transpile": "sass --no-source-map styles.scss:styles.css",
-    "watch": "sass --no-source-map --watch styles.scss:styles.css"
+    "sass-transpile": "sass --no-source-map style.scss:style.css",
+    "watch": "sass --no-source-map --watch style.scss:style.css"
   },
   "author": "",
   "license": "ISC",

@@ -1,0 +1,109 @@
+{
+    "questions": [
+        {
+            "question": "What year was Steam released?",
+            "answers": [
+                {
+                    "answer": "2000",
+                    "correct": false
+                },
+                {
+                    "answer": "2001",
+                    "correct": false
+                },
+                {
+                    "answer": "2002",
+                    "correct": true
+                },
+                {
+                    "answer": "2003",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Which company developed Steam?",
+            "answers": [
+                {
+                    "answer": "Microsoft",
+                    "correct": false
+                },
+                {
+                    "answer": "Electronic Arts",
+                    "correct": false
+                },
+                {
+                    "answer": "Epic Games",
+                    "correct": false
+                },
+                {
+                    "answer": "Valve",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "What programming language was Steam written in?",
+            "answers": [
+                {
+                    "answer": "С++",
+                    "correct": true
+                },
+                {
+                    "answer": "Delphi",
+                    "correct": false
+                },
+                {
+                    "answer": "C#",
+                    "correct": false
+                },
+                {
+                    "answer": "Java",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "What are the best sales on Steam?",
+            "answers": [
+                {
+                    "answer": "Fall Sale and Halloween Sale",
+                    "correct": false
+                },
+                {
+                    "answer": "Summer Sale and Winter Sale",
+                    "correct": true
+                },
+                {
+                    "answer": "Halloween Sale and Winter Sale",
+                    "correct": false
+                },
+                {
+                    "answer": "Summer Sale and Halloween Sale",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Who is Gabe Newell?",
+            "answers": [
+                {
+                    "answer": "Businessman",
+                    "correct": false
+                },
+                {
+                    "answer": "Entrepreneur and video game developer",
+                    "correct": true
+                },
+                {
+                    "answer": "Lawyer",
+                    "correct": false
+                },
+                {
+                    "answer": "Don't know",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}

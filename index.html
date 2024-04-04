@@ -1,148 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Factsheet</title>
-</head>
-<body>
-    <header>
-        <div class="nav-button-mobile-container">
-            <button class="menubtn">Menu</button>
-            <div class="nav-dropdown">
-                <a class="nav-dropdown-item" href="#">Home</a>
-                <a class="nav-dropdown-item" href="#gameHours">Games</a>
-                <a class="nav-dropdown-item" href="#resources">Information</a>
-                <a class="nav-dropdown-item" href="#userForm">Message</a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/style.css">
+        <title>Factsheet</title>
+    </head>
+    <body>
+        <header>  
+            <button class="dropbtn">Menu</button>
+            <a href="/pages/index.html" title="Go to website"><img src="/image/Steam_icon_logo.svg" alt="Steam" width="200px" height="100px"></a>
+            <h1 id="nav-h1">DiamondFox</h1>        
+            <nav class="menu">
+                <ul id="menu-items" class="menu-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#tables">Tables</a></li>
+                    <li><a href="#resources">Information</a></li>
+                    <li><a href="#userForm">Form</a></li>
+                    <li><a href="/pages/surveyFilter.html">Survey Data</a></li>
+                    <li><a href="/pages/game.html">Game</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="image-container">
+                <div class="image-item">
+                    <img src="/image/steam1.jpg" alt="Steam">
+                </div>
+                <div class="image-item">
+                    <img src="/image/steam2.jpg" alt="Steam">
+                </div>
+                <div class="image-item">
+                    <img src="/image/steam3.jpg" alt="Steam">
+                </div>
+                <div class="image-item">
+                    <img src="/image/steam4.jpg" alt="Steam">
+                </div>
             </div>
-        </div>
-       
-        <h1 id="h1">DiamondFox</h1>
-        <nav class="hyperlink-container">
-            <ul id="hyperlink-items" class="hyperlink-items">
-                <li><a href="#">Home</a></li>
-                <li><a href="#gameHours">Games</a></li>
-                <li><a href="#resources">Information</a></li>
-                <li><a href="#userForm">Message</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2 class="imageh">Avatars</h2>
-        <div class="image-container">
-            <div class="image-item">
-                <img src="/image/steam.jpg" alt="steam">
-            </div>
-            <div class="image-item">
-                <img  src="/image/discord.png" alt="discord">
-            </div>
-            <div class="image-item">
-                <img  src="/image/telegram.jpeg" alt="telegram">
-            </div>
-        </div>
-        <span class="link_anchor" id="gameHours"></span>
-        <div class="table-container">
-            <table>
-            <caption>Top 5 games by hours played</caption>
-            <thead>
-                <tr>
-                    <th>Rank</th>
-                    <th>Game</th>
-                    <th>Hours</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>1</th>
-                    <th>Dota 2</th>
-                    <th>854.3</th>
-                </tr>
-                <tr>
-                    <th>2</th>
-                    <th>Unturned</th>
-                    <th>854.1</th>
-                </tr>
-                <tr>
-                    <th>3</th>
-                    <th>Grand Theft Auto V</th>
-                    <th>478.6</th>
-                </tr>
-                <tr>
-                    <th>4</th>
-                    <th>Deep Rock Galactic</th>
-                    <th>474.2</th>
-                </tr>
-                <tr>
-                    <th>5</th>
-                    <th>Hell Let Loose</th>
-                    <th>352.2</th>
-                </tr>
-            </tbody>
-        </table></div>
+        
+            <div id="tables" class="tables"> 
+                <table id="gameHours">
+                    <caption>Top 10 games by hours played</caption>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Game</th>
+                            <th>Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <th>Dota 2</th>
+                            <th>981.4</th>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <th>Unturned</th>
+                            <th>854.1</th>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <th>Grand Theft Auto V</th>
+                            <th>478.6</th>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <th>Deep Rock Galactic</th>
+                            <th>474.2</th>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <th>Hell Let Loose</th>
+                            <th>352.2</th>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <th>For Honor</th>
+                            <th>289.9</th>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <th>BattleRush</th>
+                            <th>271.1</th>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <th>Raft</th>
+                            <th>266.3</th>
+                        </tr>
+                        <tr>
+                            <th>9</th>
+                            <th>Risk of Rain 2</th>
+                            <th>245.4</th>
+                        </tr>
+                        <tr>
+                            <th>10</th>
+                            <th>Blitzkrieg Anthology</th>
+                            <th>223.1</th>
+                        </tr>
+                    </tbody>
+                </table>
 
-        <span class="link_anchor" id="resources"></span>
-        <div class="information">
-            <div class="resources">
-                <h3>Links</h3>
-                <ol>
-                    <li>
-                        Steam
-                        <ul  type="circle">
-                            <li>
-                                <a href="https://steamcommunity.com/profiles/76561198267116292/" target="_blank">Profile</a>
-                            </li>
-                            <li>
-                                <a href="https://steamcommunity.com/profiles/76561198267116292/games/?tab=all" target="_blank">Games</a>
-                            </li>
-                            <li>
-                                <a href="https://steamcommunity.com/profiles/76561198267116292/inventory/" target="_blank">Inventory</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        Discord
-                        <ul type="circle">
-                            <li>
-                                <a href="https://discord.gg/Qv2zdxuW" target="_blank">diamond.fox</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        Telegram
-                        <ul  type="circle">
-                            <li>
-                                <a href="https://t.me/DlamondFox" target="_blank">DlamondFox</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        Instagram
-                        <ul type="circle">
-                            <li>
-                                <a href="https://www.instagram.com/diamond.ffox?igsh=MXcwamdoMzdnZGJpcA%3D%3D&utm_source=qr" target="_blank">diamond.foxx</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ol>
+                <table id="perfectGames">
+                    <caption>Perfectly completed games</caption>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Game</th>
+                            <th>Achievements</th>
+                            <th>Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Raft</td>
+                            <td>104/104</td>
+                            <td>266.3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Risk of Rain 2</td>
+                            <td>118/118</td>
+                            <td>245.4</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>RUNNING WITH RIFLES</td>
+                            <td>45/45</td>
+                            <td>167.7</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>The Escapists 2</td>
+                            <td>58/58</td>
+                            <td>95.5</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>The Last of Us™ Part I</td>
+                            <td>29/29</td>
+                            <td>70.2</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Call of Duty: WWII</td>
+                            <td>35/35</td>
+                            <td>62.6</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Bomber Crew</td>
+                            <td>30/30</td>
+                            <td>36.3</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Door Kickers: Action Squad</td>
+                            <td>51/51</td>
+                            <td>17.1</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Clownfield 2042</td>
+                            <td>15/15</td>
+                            <td>10.5</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Zup! Zero</td>
+                            <td>1043/1043</td>
+                            <td>45 minutes</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <div class="resources">
-                <h3>Perfect games</h3>
-                    <ul type="disc">
-                        <li>Risk of Rain 2</li>
-                        <li>Raft</li>
-                        <li>RUNNING WITH RIFLES</li>
-                        <li>The Last of Us™ Part I</li>
-                        <li>Call of Duty: WWII</li>
-                        <li>Bomber Crew</li>
-                        <li>Door Kickers: Action Squad</li>
-                        <li>Counter-Strike 2</li>
-                        <li>Clownfield 2042</li>
-                        <li>Zup! Zero</li>
+            
+            <div class="information">
+                <div id="resources">
+                    <h3>Links</h3>
+                    <ul>
+                        <li>
+                            Steam
+                            <ul>
+                                <li>
+                                    <a href="https://steamcommunity.com/profiles/76561198267116292/" target="_blank">Profile</a>
+                                </li>
+                                <li>
+                                    <a href="https://steamcommunity.com/profiles/76561198267116292/games/?tab=all" target="_blank">Games</a>
+                                </li>
+                                <li>
+                                    <a href="https://steamcommunity.com/profiles/76561198267116292/inventory/" target="_blank">Inventory</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Discord
+                            <ul>
+                                <li>
+                                    <a href="https://discord.gg/Qv2zdxuW" target="_blank">diamond.fox</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Telegram
+                            <ul>
+                                <li>
+                                    <a href="https://t.me/DlamondFox" target="_blank">DlamondFox</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Instagram
+                            <ul>
+                                <li>
+                                    <a href="https://www.instagram.com/diamond.ffox?igsh=MXcwamdoMzdnZGJpcA%3D%3D&utm_source=qr" target="_blank">diamond.foxx</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
-            </div>
-            <div class="resources">
-                <h3>Tsekh Squad</h3>
+                </div>
+                <div id="squad">
+                    <h3>Tsekh Squad</h3>
                     <dl>
                         <dt><a href="https://steamcommunity.com/profiles/76561198408870079" target="_blank">sosoplay</a></dt>
                         <dd>- 11 Steam level</dd>
@@ -152,102 +232,95 @@
 
                         <dt><a href="https://steamcommunity.com/profiles/76561199206950856" target="_blank">justSancheZ</a></dt>
                         <dd>- 0 Steam level</dd>
-                    </dl>
-            </div>
-        </div>
-        <span class="link_anchor" id="userForm"></span>
-        <div class="userForm-container">
-            <div class="userForm">
-            <h3 class="formh">Fill out the form of your Steam Account</h3>
-            <form action="">
-                <input
-                    class="userForm-text"
-                    type="text"
-                    name="name"
-                    placeholder="Your Name"
-                    maxlength="30"
-                    required
-                >
-                <br>
-                <input
-                    class="userForm-text"
-                    type="email"
-                    name="email"
-                    placeholder="Your Email"
-                    required
-                >
-                <br>
-                <input 
-                    class="userForm-text"
-                    type="password"
-                    name="password"
-                    placeholder="Your Password"
-                    maxlength="50"
-                    required
-                >
-                <br>
-                Your Languages: <br>
-                <input type="checkbox" id="english" name="english" value="English">
-                <label for="english"></label>English<br>
-                <input type="checkbox" id="ukrainian" name="ukrainian" value="Ukrainian">
-                <label for="ukrainian"></label>Ukrainian<br>
-                <input type="checkbox" id="none-of-these" name="none-of-these" value="None-of-these">
-                <label for="none-of-these"></label>None of these<br><br>
-                <label for="country">Country:</label><br>
-                <select id="country" name="country">
-                    <option value="" disabled selected>Select Country</option>
-                    <option value="ukraine">Ukraine</option>
-                    <option value="usa">USA</option>
-                    <option value="uk">UK</option>
-                    <option value="other">Other</option>
-                </select><br><br>
-                Receive Email Notification: <br>
-                <input type="radio" id="yes" name="yes/no" value="yes" checked>
-                <label for="yes">Yes</label><br>
-                <input type="radio" id="no" name="yes/no" value="no">
-                <label for="no">No</label><br><br>
-                Message: <br>
-                <textarea cols="47" rows="5" wrap="virtual" placeholder="Type a message to me" required></textarea><br><br>
-                <label for="file">Attach File</label><br>
-                <input type="file" name="load" id="file" size="50"><br><br>
-                <div class="button-container">
-                    <input type="submit" name="submit" value="Submit">
-                    <input type="reset" name="reset" value="Clear">
+                    </dl>  
                 </div>
-            </form>
-        </div></div>
-    </main>
-    <footer>
-        <p>&copy; 2024 All rights reserved. DiamondFox&reg;</p>
-    </footer>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const button = document.querySelector('.menubtn');
-            const navDropdown = document.querySelector('.nav-dropdown');
-            button.addEventListener('click', () => {
-                if (navDropdown.classList.contains('active')) {
-                    navDropdown.classList.remove('active');
-                } else {
-                    navDropdown.classList.add('active');
-                }       
-            })
+                <div id="favGames">
+                    <h3>Featured games</h3>
+                    <ol>
+                        <li><a href ="https://store.steampowered.com/app/686810/Hell_Let_Loose/" target="_blank">Hell Let Loose</a></li>
+                        <li><a href ="https://store.steampowered.com/app/734580/BattleRush/" target="_blank">BattleRush</a></li>
+                        <li><a href ="https://store.steampowered.com/app/270150/RUNNING_WITH_RIFLES/" target="_blank">RUNNING WITH RIFLES</a></li>
+                        <li><a href ="https://store.steampowered.com/app/313480/Blitzkrieg_Anthology/" target="_blank">Blitzkrieg Anthology</a></li>
+                        <li><a href ="https://store.steampowered.com/app/313500/Blitzkrieg_2_Anthology/" target="_blank">Blitzkrieg 2 Anthology</a></li>
+                        <li><a href ="https://store.steampowered.com/app/228200/Company_of_Heroes/" target="_blank">Company of Heroes</a></li>
+                        <li><a href ="https://store.steampowered.com/app/219150/Hotline_Miami/" target="_blank">Hotline Miami</a></li>
+                        <li><a href ="https://store.steampowered.com/app/274170/Hotline_Miami_2_Wrong_Number/" target="_blank">Hotline Miami 2: Wrong Number</a></li>
+                        <li><a href ="https://store.steampowered.com/app/686200/Door_Kickers_Action_Squad/" target="_blank">Door Kickers: Action Squad</a></li>
+                        <li><a href ="https://store.steampowered.com/app/304390/FOR_HONOR/" target="_blank">For Honor</a></li>
+                        <li><a href ="https://store.steampowered.com/app/548430/Deep_Rock_Galactic/" target="_blank">Deep Rock Galactic</a></li>
+                        <li><a href ="https://store.steampowered.com/app/632360/Risk_of_Rain_2/" target="_blank">Risk of Rain 2</a></li>
+                    </ol>
+                </div>
+            </div> 
             
-            navDropdown.addEventListener('click', (event) => {
-                if (event.target.closest('.nav-dropdown-item')) {
-                    navDropdown.classList.remove('active');
-                }
-            })
-
-            document.addEventListener('click', (event) => {
-                const target = event.target;
-                if (target && target.closest('.nav-button-mobile-container')) {
-                    return;
-                }
-
-                navDropdown.classList.remove('active');
-            })
-        })
-    </script>
-</body>
+            <div id="userForm"> 
+                <h3>Fill out an application form to contact with me:</h3> 
+                <form id="surveyForm"> 
+                    <input type="text" id="name" name="name" placeholder="Name" maxlength="30" required><br> 
+                    <input type = "email" id="email" name = "email" placeholder="Email" required><br>
+                    <label for="phone">Phone number:</label><br>
+                    <input type="tel" id="phone" name="phone" pattern="\+\d{3}\d{9}" placeholder="+380" required><br><br>
+                    <label for="dob">Date of Birth:</label><br> 
+                    <input type="date" id="dob" name="dob" required><br><br> 
+                    <label>Your Languages:</label><br> 
+                    <input type="radio" id="langEnglish" name="lang" value="English" required> English 
+                    <input type="radio" id="langUkrainian" name="lang" value="Ukrainian"> Ukrainian
+                    <input type="radio" id="langBoth" name="lang" value="Both"> Both 
+                    <br><br>
+                    <label for="gameNumber">Number of Games (in your Account):</label><br>
+                    <input type="number" id="gameNumber" name="gameNumber" min="0" max="500" value="0" required><br><br>
+                    <label for="gameActivity">Game Activity (Low to High):</label><br>
+                    <input type="range" id="gameActivity" name="gameActivity" min="1" max="10" value="5" oninput="this.nextElementSibling.value = this.value" required>
+                    <output>5</output><br><br>
+                    <label for="country">Country:</label><br> 
+                    <select id="country" name="country" required>  
+                        <option value="" disabled selected>Select Country</option> 
+                        <option value="usa">USA</option> 
+                        <option value="uk">UK</option> 
+                        <option value="ukrainian">Ukraine</option> 
+                        <option value="other">Other</option> 
+                    </select><br>
+                    <label>Favorite Ganres:</label><br>
+                    <input type="checkbox" id="action" name="ganres" value="action" >
+                    <label for="action">Action</label><br>
+                    <input type="checkbox" id="adventure" name="ganres" value="adventure">
+                    <label for="adventure">Adventure</label><br>
+                    <input type="checkbox" id="strategy" name="ganres" value="strategy">
+                    <label for="strategy">Strategy</label><br>
+                    <input type="checkbox" id="simulations" name="ganres" value="simulations">
+                    <label for="simulations">Simulations</label><br>
+                    <input type="checkbox" id="rpg" name="ganres" value="rpg">
+                    <label for="rpg">Role-playing games (RPG)</label><br>
+                    <input type="checkbox" id="survival" name="ganres" value="survival">
+                    <label for="survival">Survival</label><br>
+                    <input type="checkbox" id="horror" name="ganres" value="horror">
+                    <label for="horror">Horror</label><br><br>
+                    <textarea id="message" cols="35" rows="5" wrap="virtual" placeholder="Type a message to me" required></textarea><br><br>
+                    <div class="button-container"> 
+                        <input type="submit" name="submit" value="Send"> 
+                        <input type="reset" name="reset" value="Clear"> 
+                    </div> 
+                </form> 
+            </div>
+            
+            <div id="quizContainer">
+                <h2>Steam quiz of 5 questions</h2>
+                <div id="quiz"></div>
+                <div id="navigation">
+                    <button id="prev">Previous</button>
+                    <button id="next">Next</button>
+                </div>
+                <div id="results"></div>
+                <div class="button-container">
+                    <input type="submit" id="quizSubmit" value="Submit Answers"> 
+                    <input type="reset" id="quizReset" value="Reset Answers"> 
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; <span id="currentYear"></span> All rights reserved. DiamondFox&reg;</p>
+        </footer>
+        <script src="/js/script.js"></script>
+        <script src="/js/userQuiz.js"></script>
+    </body>
 </html>
